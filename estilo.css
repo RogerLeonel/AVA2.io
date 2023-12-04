@@ -1,0 +1,205 @@
+
+       /* body {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(167, 247, 194);
+          
+
+        }
+     */
+       /* body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #111111;
+            background-color: gray;
+        } */
+
+       body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+            background-color: #f7cd8e;
+        }
+        .header {
+            display: block;
+            text-align: center;
+            padding: 10px 0;
+            
+
+        }
+        .titulo {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-color: var(--cor-11);
+            margin-bottom: 4px;
+        }
+        .subtitulo {
+            font-size: 1.125rem;
+            font-weight: 500;
+            letter-spacing: 0.015em;
+            text-transform: uppercase;
+            font: 400 1.5rem/1.5 "Roboto", sans-serif;
+            margin: 0px;
+            margin-bottom: 4px;
+        }
+        .form-contato{
+            
+                border-radius: 0 5px 5px 0;
+        }
+        .contato {
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+        }
+        .form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .container {
+            box-sizing: border-box;
+            max-width: 1200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .form-box {
+            margin: 0 10px;
+        }
+        div {
+            display: block;
+        }
+
+    
+        
+    
+       .titulo {
+        font-weight: bold;
+        font-size: 3rem;
+        font: 600 4rem/1.125 "Poppins", sans-serif;
+       }
+
+        .dropbtn {
+            background-color: #0025c9;
+            color: white;
+            padding: 16px 44px;
+            font-size: 20px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 12px;
+        }
+
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        
+        .btn {
+            background-color: #07b101;
+            color: white;
+            padding: 16px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 12px;
+
+        }
+
+        .btn:hover {
+            background-color: #015f1d;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 0px;
+           
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #011f5f;
+        }
+
+        h1 {
+            display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+  ;
+        }
+
+        main {
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+ img {
+    height: 250px;
+    width: 500px;
+ }
+ 
+ .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #c20c0c;
+    color: white;
+  }
